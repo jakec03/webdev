@@ -1,0 +1,126 @@
+/* Layout Styles */
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.common {
+    /* background-color: #cccccc; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 60px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+.center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subheader {
+    top: 69px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    border-bottom: solid 1px #555555;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 200px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 20px;
+    /* border-right: solid 1px #555555; */
+    
+}
+.mainbody {
+    top: 114px;
+    left:  214px;
+    right: 320px;
+    bottom: 39px;
+    padding-right: 5px;
+
+}
+.rightmenu {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  width: 300px;
+  bottom: 450px;
+  border: solid 4px #555555;
+  padding-left: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer {
+    bottom: 5px;
+    height: 25px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+.title {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.home {
+    position: absolute;
+    left: 10px;
+}
+.mylink {
+    text-decoration: none;
+    color: black;
+}
+.mylink:hover {
+    color: rgb(80, 80, 241);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.mylink:visited {
+    color: rgb(12, 0, 48);
+}
+.bold {
+    font-weight: bold;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 280px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+.ital {
+    font-style: italic;
+}
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.webapp {
+    position: absolute;
+    right: 10px;
+}
