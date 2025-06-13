@@ -88,7 +88,7 @@
         let lift = -10;
         let pipes = [];
         let pipeWidth = 50;
-        let pipeGap = 170;
+        let pipeGap = 200;
         let frame = 0;
         let score = 0;
         let gameOver = false;
@@ -114,7 +114,7 @@
         }
 
         function updatePipes() {
-            if (frame % 120 === 0) {
+            if (frame % 160 === 0) {
                 let top = Math.random() * (canvas.height - pipeGap - 100) + 20;
                 pipes.push({
                     x: canvas.width,
